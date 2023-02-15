@@ -1,3 +1,5 @@
-export default function Home() {
-  return <>User Post</>;
+import UserPostView from "@/views/userPosts/userPostView";
+
+export default function UserPost() {
+  return <UserPostView />;
 }
